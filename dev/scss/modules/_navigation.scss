@@ -1,0 +1,84 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+.Nav-wrapper {
+	height: 150px;
+	background-color: $c-grey;
+	
+}
+
+.Logo {
+	img {
+		max-width: 420px;
+	}
+}
+.right-nav-content {
+	width: 50%;
+	float: right;
+
+	.Nav-tel {
+		height: 90px;
+	}
+	.Navigation {
+	  text-align: center;
+	  float: left;
+	}
+}
+
+
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-link.is-active {
+ 	background-color: $c-red;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: inline;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+	text-decoration: none;
+	color: white;
+	padding: 12px 9px;
+	background-color: $c-darkgrey;
+	margin: 0 3px;
+	font-size: 15px;	
+}
+
+
