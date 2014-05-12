@@ -7,6 +7,9 @@ module.exports = {
   // ----- Minify all images ----- //
 
   all: {
+  	options: {
+  	  optimizationLevel: 3
+  	},
     files: [{
       expand: true,
       cwd: 'dev/img',

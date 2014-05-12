@@ -39,16 +39,26 @@
     <!-- Main navigation -->
     
 	<div class="Nav-wrapper">
-		<div class="Logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heerebout_logo.png"></div>
-		<div class="right-nav-content">
-			<div class="Nav-tel"></div>
-		    <?php include 'includes/navigation.php'; ?>
+		<div class="u-gridContainer">
+			<div class="Logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heerebout_logo.png"></div>
+			<div class="right-nav-content">
+				<div class="Nav-tel">
+					<h5>0252 - 620 557</h5>
+					<p>info@heerebout-advocatuur.nl</p>
+				</div>
+			    <?php include 'includes/navigation.php'; ?>
+			</div>
 		</div>
 	</div> <!-- Main nav -->
 	
 <?php if(is_front_page()) { ?>
 	<div class="Header">
 		<div class="Header-img">
+			<div class="u-gridContainer">
+				<div class="extended-content">
+					<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer.</p>
+				</div>
+			</div>		
 		</div>
 	</div> <!-- Header -->
 	

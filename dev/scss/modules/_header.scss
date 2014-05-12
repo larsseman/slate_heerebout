@@ -5,9 +5,11 @@
 //
 // *************************************
 
-.Header {
-  background-image: url("../img/img-header-bg.png");
+.Header-img {
+  background-image: url("../img/header-bg.jpg");
   background-size: cover;
+  height: 400px;
+  position: relative;
 }
 
 // -------------------------------------
@@ -38,37 +40,19 @@
 // Submodules
 // -------------------------------------
 
-// ----- Contact bar ----- //
 
-.Header-contact {
-  @extend .u-gridRow;
-  padding-bottom : $l-whiteSpace;
-  padding-top    : $l-whiteSpace;
-  background: rgba($c-black,0.5);
+.extended-content {
+	background-color: white;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	width: 66%;
+	p {
+		text-align: center;
+	    font-style: italic;
+	    font-size: 20px;
+	    line-height: 20px;
+	    color: grey;
+	}
 }
 
-// ----- Contact bar ----- //
-
-.Header-logo {
-  @extend .u-gridRow;
-  padding-bottom : $l-whiteSpace;
-  padding-top    : $l-whiteSpace;
-  background: rgba($c-black,0.25);
-}
-
-// ----- Nav bar ----- //
-
-.Header-nav {
-  @extend .u-gridRow;
-  padding-bottom : $l-whiteSpace;
-  padding-top    : $l-whiteSpace;
-  background: $c-blue;
-}
-
-// ----- Carousel ----- //
-
-.Header-carousel {
-  @extend .u-gridRow;
-  padding-bottom : ($l-whiteSpace * 4);
-  padding-top    : ($l-whiteSpace * 4);
-}
