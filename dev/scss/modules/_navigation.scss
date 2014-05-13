@@ -6,8 +6,8 @@
 // *************************************
 .Nav-wrapper {
 	height: 170px;
-	background-color: $c-grey;
-	
+	background-color: $c-lightgrey;
+	border-bottom: 7px solid white;
 }
 
 .Logo {
@@ -17,6 +17,7 @@
 		max-width: 400px;
 	}
 }
+
 .right-nav-content {
 	width: 50%;
 	float: right;
@@ -41,8 +42,8 @@
 				text-decoration: underline;
 			}
 		}
-
 	}
+	
 	.Navigation {
 	  text-align: center;
 	}

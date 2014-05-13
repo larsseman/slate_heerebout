@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background  : $c-white;
+  background-color: $c-lightgrey;
   color       : $c-black;
   font-family : $t-fontFamily;
   font-size   : 100%;
@@ -65,7 +65,7 @@ ul {
 // -------------------------------------
 
 a {
-  color: $c-blue;
+  color: $c-red;
   text-decoration: none;
   &:hover,
   &:focus {
