@@ -4,6 +4,9 @@
 // -> Reusable navigation module
 //
 // *************************************
+
+
+
 .Nav-wrapper {
 	height: 170px;
 	background-color: $c-lightgrey;
@@ -13,8 +16,9 @@
 .Logo {
 	height: 170px;
 	padding: 45px 30px;
+	width: 49%;
 	img {
-		max-width: 400px;
+		max-width: 100%;
 	}
 }
 
@@ -22,6 +26,8 @@
 	width: 50%;
 	float: right;
 	padding-top: 15px;
+	
+	
 	.Nav-tel {
 		text-align: center;
 		line-height: 0;
@@ -50,34 +56,10 @@
 }
 
 
-
-// -------------------------------------
-// Module specific variables
-// -------------------------------------
-
-// Module-variableName
-
-// -------------------------------------
-// Modifiers
-// -------------------------------------
-
-// -------------------------------------
-// States
-// -------------------------------------
-
 .Navigation-link.is-active {
  	background-color: $c-red;
 }
 
-// -------------------------------------
-// Context
-// -------------------------------------
-
-// .has-module
-
-// -------------------------------------
-// Submodules
-// -------------------------------------
 
 // ----- List item ----- //
 
@@ -90,6 +72,7 @@
     margin-right: 0;
   }
 }
+
 
 // ----- Navigation link ----- //
 
@@ -107,4 +90,59 @@
 	}
 }
 
+.Navigation-link--dropdownTrigger:focus {
+	background-color: $c-red;
+	text-decoration: none;
+}
 
+
+// -------- Dropdown style -------- //
+
+.Navigation-listItem--hasDropdown {
+	position: relative;
+	text-decoration: none;
+}
+ 
+.Navigation-list--dropdown {
+	display: block;
+	height: auto;
+    position: absolute;
+	background-color: white;
+	width: 205px;
+    line-height: 40px;
+    top: 40px;
+    left: 0;
+    z-index: 110;
+	border: 4px solid $c-darkgrey;
+	border-top: 0px solid white;
+	
+	
+	.Navigation-listItem {
+		display: block;
+		padding: 0 2px;
+		width: 205px;
+		
+		&:hover  {
+			color: $c-darkgrey;
+			text-decoration: none;
+		}
+	}
+	
+	.Navigation-link.is-active {
+ 	}
+}
+
+#menu-item-86 {
+	.Navigation-list--dropdown {
+		left: 0px;
+	}
+}
+
+//------------ Important! -------------//
+//        Dropdown display hide        //
+
+.Navigation-list.is-hidden {
+	display: none;
+}
+
+//-------------------------------------//

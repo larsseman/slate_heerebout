@@ -12,8 +12,15 @@
 
 .Content-entry {
 	background-color: white;
-	padding: 20px 0;
+	padding: 0 0 20px;
 }
+
+.page-title {
+	h2 {
+		margin-top: 60px;
+	}
+}
+
 
 .intro-box {
 	position: relative;
@@ -36,6 +43,8 @@
 		top: -50px;
 						
 	}
+	
+	
 	
 	.intro-name {
 	    position: absolute;
@@ -158,11 +167,123 @@
 
 }
 
+.HR-block {
+	float: left;
+	width: 100%;
+}
 
-/* ------------------------------------- */
+//-------------------------------------
+//        --> Contact page <--
+
+.Contact-adres {
+	.adres-info {
+		@include span-columns(6);
+	}
+	
+	.maps {
+		@include span-columns(6);
+	}
+}
+
+.Contact-form {
+	@include span-columns(9);
+}
+
+
+
+// -----------form style-----------
+.gform_wrapper {
+	label.gfield_label {
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+  	
+	input, textarea {
+		border: 1px solid grey;
+		color: $c-red;
+		border-radius: 5px;
+		padding-left: 6px !important;
+		
+		&:hover, &:focus {
+			background-color: #fafafa;
+			border: 1px solid rgba(108, 0, 0, 1);
+			
+			-webkit-transition:all 0.2s ease;
+			-moz-transition:all 0.2s ease;
+			-o-transition:all 0.2s ease;
+		}
+	}
+	
+	.gform_button {
+		background-color: white;
+		border: 1px solid $c-red;
+		padding: 5px 15px !important;
+		
+		&:hover {
+			border: 1px solid $c-red;
+			
+			-webkit-transition:all 0.2s ease;
+			-moz-transition:all 0.2s ease;
+			-o-transition:all 0.2s ease;
+		}
+	}
+}
+// -----------form style-----------
+
+
+
+//        --> Contact page <--
+//-------------------------------------
+
+
+
+.Hugo-intro-img {
+	background-image: url('../img/Hugo-img-big.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+	height: 280px;
+	width: 280px;
+	margin: 20px;
+}
+
+
+
+// ============================================================== 
+//					@media queries - Responsiveness
+// ============================================================== 
+
+@media all and (max-width: 920px) {
+	.homeQ-box {
+		@include span-columns(6);
+		
+	}
+}
+
+
+
+// ============================================================== 
+//						Page specific adjustments
+// ============================================================== 
 
 .page-id-5 {
+	.Content-entry {
+		padding: 20px 0;
+	}
 	.page-title {
 		display: none;
+	}
+}
+
+.page-id-8 {
+	.Content-entry {
+		padding: 0 0 20px;
+	}
+}
+
+.page-id-60 {
+	.u-gridContainer {
+		padding: 0px;
 	}
 }

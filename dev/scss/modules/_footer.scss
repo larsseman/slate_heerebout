@@ -29,18 +29,23 @@
 	a.contactformulier-btn {
 			display: block;	 
 			color: white;
-			background-color: #C60025;
-			padding: 10px 15px;
+			text-align: center;
 			border: 3px solid transparent;
+			background-color: #C60025;
+			padding: 7px 15px;
 			font-weight: 600;
 			margin-top: -15px;
-			text-align: center;
+			width: 195px;
 			
 			&:hover {
 				background-color: white;
+				text-decoration: none;
 				border: 3px solid $c-red;
 				color: $c-red;
-				text-decoration: none;
+				
+				-webkit-transition:all 0.2s ease;
+				-moz-transition:all 0.2s ease;
+				-o-transition:all 0.2s ease;
 			}
 		
 	}
@@ -54,9 +59,13 @@
 		line-height: 120px;
 		&:hover {
 			text-decoration: none;
-			background-color: $c-darkgrey;
 			color: white;
+			background-color: $c-darkgrey;
 	
+	
+			-webkit-transition:all 0.2s ease;
+			-moz-transition:all 0.2s ease;
+			-o-transition:all 0.2s ease;
 		}
 	}
 	
@@ -66,6 +75,7 @@
 			fill: $c-darkgrey;
 			width: 2rem;
 			height: 2rem;
+			margin: 0 2px;
 			
 		}
 	}
@@ -102,3 +112,33 @@
     	font-size: 15px;
 	}
 }
+
+
+
+// ============================================================== 
+//					@media queries - Responsiveness
+// ============================================================== 
+
+@media all and (max-width: 955px) {
+	.span3 {
+		width: 50%;
+	}	
+}
+
+
+
+@media all and (max-width: 550px) {
+	.span3 {
+		text-align: center;
+		width: 100%;
+		
+		.contactformulier-btn {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	
+}
+
+

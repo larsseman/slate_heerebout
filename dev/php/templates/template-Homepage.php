@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Page Homepage
+Template Name: temp Homepage
 */
 ?>
 
@@ -30,6 +30,7 @@ Template Name: Page Homepage
 		<div class="vid-title"><p>Video impressie</p></div>
 		<div class="vid-box">
 			<div class="vid-video">
+				<iframe width="720" height="480" src="//www.youtube.com/embed/we1UbtaMCqM" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

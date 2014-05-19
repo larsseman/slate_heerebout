@@ -5,9 +5,7 @@
 //    submission
 // *************************************
 
-.Table {
-  text-transform: uppercase;
-}
+.Table {}
 
 // -------------------------------------
 // Module specific variables
@@ -40,6 +38,6 @@
 // Submodules
 // -------------------------------------
 
-.Table-heading {
-  padding-bottom: $l-whiteSpace;
+.Table-title {
+  margin-bottom: $l-whiteSpace;
 }
