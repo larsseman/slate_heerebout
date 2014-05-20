@@ -8,7 +8,6 @@
 
 
 .Nav-wrapper {
-	height: 170px;
 	background-color: $c-lightgrey;
 	border-bottom: 7px solid white;
 }
@@ -35,6 +34,7 @@
 		p {
 			margin-top: -10px !important;
 			color: $c-red;
+
 			&:hover {
 				text-decoration: underline;
 			}
@@ -50,8 +50,32 @@
 		}
 	}
 	
-	.Navigation {
+	.Navigation ul {
 	  text-align: center;
+	  margin: 10px 0;
+	}
+	a#nav-toggle {
+		text-align: center;
+		display: none;
+		cursor: pointer;
+		border: 3px solid $c-darkgrey;
+		margin: 0 auto 20px;
+		width: 50px;
+		height: 50px;
+		padding-top: 9px;
+		border-radius: 10px;
+		fill: $c-darkgrey;
+
+		
+		&:hover {
+			background-color: #fafafa;
+			border-color: $c-red;
+			fill: $c-red;
+			
+			-webkit-transition:all 0.2s ease;
+			-moz-transition:all 0.2s ease;
+			-o-transition:all 0.2s ease;
+		}
 	}
 }
 
@@ -87,6 +111,11 @@
 	&:hover {
 		background-color: $c-red;
 		text-decoration: none;
+		
+		-webkit-transition:all 0.2s ease;
+		-moz-transition:all 0.2s ease;
+		-o-transition:all 0.2s ease;
+		
 	}
 }
 
@@ -107,24 +136,28 @@
 	display: block;
 	height: auto;
     position: absolute;
-	background-color: white;
-	width: 205px;
+	background-color: $c-lightgrey;
+	border: 7px solid white;
+	border-top: 0px solid white;
+	width: auto;
     line-height: 40px;
-    top: 40px;
+    top: 41px;
     left: 0;
     z-index: 110;
-	border: 4px solid $c-darkgrey;
-	border-top: 0px solid white;
 	
 	
 	.Navigation-listItem {
 		display: block;
 		padding: 0 2px;
 		width: 205px;
-		
-		&:hover  {
+				
+		a {
+			background-color: transparent;
 			color: $c-darkgrey;
-			text-decoration: none;
+			
+			&:hover {
+				color: $c-red;
+			}
 		}
 	}
 	
@@ -146,3 +179,84 @@
 }
 
 //-------------------------------------//
+
+svg.Icon.Icon--inline {
+	font-size: 35px;	
+} 
+
+.Navigation ul {
+  @include clearfix();
+  margin: 0;
+}
+
+
+//=========================================================================
+//                       @media queries - Responsiveness
+//=========================================================================
+
+@media all and (max-width: 1050px) {
+	#menu-item-86 ul.Navigation-list--dropdown {
+		left: -76px;
+	}	
+}
+
+@media all and (max-width: 780px) {
+	.Nav-wrapper {
+		border-bottom: 7px solid $c-red;
+	}
+	
+	.Logo {
+	    display: block;
+	    margin: 10px auto;
+	    width: 290px;
+	    height: 110px;
+	    padding: 45px 0px;
+	}
+	
+	.right-nav-content {
+		width: 100%;
+		.Nav-tel {
+			display: none;
+		}
+	}
+	
+	a.Navigation-link {
+		display: block;
+		font-size: 19px;
+	    margin: 10px 0;
+		border-radius: 6px;
+	}
+	
+	a#nav-toggle {
+		display: block !important;
+	}
+	
+	.Navigation-list--dropdown {
+		position: static;
+		border: 0px solid white;
+		
+		.Navigation-listItem {
+			width: auto;
+			a {
+				border: 2px solid;
+				line-height: 26px;
+			}
+		}
+	}
+	
+	
+	.Navigation-list--parent {
+	  display: none;
+	  @include media(780px) {
+	    display: block;
+	  }
+	}
+	
+	.Navigation-menuToggle {
+	  display: block;
+	  @include media(780px) {
+	    display: none;
+	  }
+	}
+}
+

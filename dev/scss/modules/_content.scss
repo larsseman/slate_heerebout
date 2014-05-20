@@ -28,7 +28,6 @@
 	background-color: $c-red;
 	margin-top: 70px;
 	padding: 20px 40px;
-	height: 150px;
 	
 	.intro-img {
 		background-image: url('../img/mr-heerebout.jpg');
@@ -40,11 +39,10 @@
 		height: 160px;
 		width: 165px;
 		left: 35px;
-		top: -50px;
-						
+		top: -50px;					
 	}
 	
-	
+
 	
 	.intro-name {
 	    position: absolute;
@@ -63,8 +61,23 @@
 		width: 75%;
 		p {
 			font-size: 18px;
-		}
+		}		
 	}
+}
+
+@media all and (max-width: 840px) {
+	.intro-box .intro-text {
+		width: 70%;
+		p {
+			font-size: 14px;
+		}
+	}	
+}
+
+@media all and (max-width: 690px) {
+	.intro-box .intro-text {
+		width: 63%;
+	}	
 }
 
 .vid-padbox {
@@ -89,7 +102,6 @@
 	padding: 10px;
 	
 	.vid-video {
-		height: 400px;
 		width: 100%;
 		background-color: grey;
 	}
@@ -162,9 +174,8 @@
 .homeQ-outerWrapper {
 	background-color: $c-grey;
 	width: auto;
-	height: 420px;
 	margin-top: 50px;
-
+	padding-bottom: 30px;
 }
 
 .HR-block {
@@ -178,6 +189,10 @@
 .Contact-adres {
 	.adres-info {
 		@include span-columns(6);
+		padding: 15px;
+		p {
+			font-size: 18px;
+		}
 	}
 	
 	.maps {
@@ -254,13 +269,90 @@
 //					@media queries - Responsiveness
 // ============================================================== 
 
-@media all and (max-width: 920px) {
+@media all and (max-width: 980px) {
+	.extended-content.one {
+		display: none;
+	}
+
+	.extended-content.two {
+		display: block;
+		width: 100%;
+		p {
+			font-size: 1rem;
+			padding: 0 20px;
+		}
+	}
+	
+	.Contact-form {
+		@include span-columns(12);
+		padding: 0 20px;
+	}
+
+}
+
+@media all and (max-width: 962px) {
 	.homeQ-box {
 		@include span-columns(6);
-		
+		margin: 0;
+		padding: 0 10px;
 	}
 }
 
+
+
+@media all and (max-width: 682px) {
+	.homeQ-box {
+		@include span-columns(12);
+	}
+	
+	.vid-padbox {
+		padding: 0;
+	}
+}
+
+@media all and (max-width: 580px) {
+	.intro-box {
+		display: none;
+	}
+	
+	.adres-info {
+		width: 100% !important;
+	}
+	.maps {
+		width: 100% !important;
+	}
+}
+
+
+
+@media all and (max-width: 520px) {
+	.vid-title { 
+		width: 100px;
+		p {
+			font-size: 10px;
+		}
+	}
+
+	.sub-footer p {
+		font-size: 12px !important;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.sub-footer p {
+		font-size: 8px !important;
+	}
+}
+
+
+@media all and (max-width: 330px) {
+	.Hugo-intro-img {
+		width: 200px;
+		height: 200px;
+		margin: 20px 100px 20px 20px;
+		float: left;
+	}
+}
 
 
 // ============================================================== 
@@ -282,8 +374,3 @@
 	}
 }
 
-.page-id-60 {
-	.u-gridContainer {
-		padding: 0px;
-	}
-}

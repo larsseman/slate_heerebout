@@ -7,7 +7,7 @@
 
 $(function() {
   var menu = $('.Navigation-list--parent');
-  var menuToggle = $('#js-navToggle');
+  var menuToggle = $('#nav-toggle');
 
   $(menuToggle).on('click', function(e) {
     e.preventDefault();

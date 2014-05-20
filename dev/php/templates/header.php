@@ -54,8 +54,12 @@
 <?php if(is_front_page()) { ?>
 	<div class="Header">
 		<div class="Header-img">
+			<div class="extended-content two">
+				<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer.</p>
+			</div>
+
 			<div class="u-gridContainer">
-				<div class="extended-content">
+				<div class="extended-content one">
 					<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer.</p>
 				</div>
 			</div>		

@@ -1,0 +1,54 @@
+// *************************************
+//
+// Module
+// -> This is an example module
+//
+// *************************************
+
+.maps {
+  position: relative;
+  padding-bottom: 170px; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+  margin: 10px 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Submodule ----- //
+
+// .Module-subModule

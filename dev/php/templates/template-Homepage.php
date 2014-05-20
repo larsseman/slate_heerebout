@@ -16,6 +16,7 @@ Template Name: temp Homepage
 				<div class="Content-entry">
 
 <!-- ---------------------- Content entry --------------------- -->
+
 <div class="u-gridContainer">
 	<div class="intro-box">
 		<div class="intro-img"></div>
