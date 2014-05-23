@@ -21,7 +21,7 @@
 
     <!-- Favicon, generate the favicons with: http://realfavicongenerator.net -->
     <!-- Apple touch icons should be accessible from the root of the site, and do not have to be linked here -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/ico/favicon.ico">
 
     <!-- Include only one concatenated stylesheet here, minified -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -29,6 +29,9 @@
     <!-- Head scripts, avoid including scripts here -->
     <!-- Don't forget to compile and minify the used modernizr features, or to remove it when unused -->
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/standalone/modernizr.js"></script>
+
+	<script type="text/javascript" src="//use.typekit.net/zac6ujv.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
@@ -40,7 +43,7 @@
     
 	<div class="Nav-wrapper">
 		<div class="u-gridContainer">
-			<div class="Logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heerebout_logo.png"></div>
+			<a href="/home/" class="Logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heerebout_logo.png"></a>
 			<div class="right-nav-content">
 				<div class="Nav-tel">
 					<h5>0252 - 620 557</h5>

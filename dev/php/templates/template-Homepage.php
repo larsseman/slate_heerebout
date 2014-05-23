@@ -32,6 +32,11 @@ Template Name: temp Homepage
 		<div class="vid-box">
 			<div class="vid-video">
 				<iframe width="720" height="480" src="//www.youtube.com/embed/we1UbtaMCqM" frameborder="0" allowfullscreen></iframe>
+
+				<!-- voor het geval het toch wel anders moet...
+				<div class="youtube-vid">
+					<a target="_blank" href="http://www.youtube.com/watch?v=we1UbtaMCqM"><p>Bekijk de video<p></a>					</div>
+				-->
 			</div>
 		</div>
 	</div>

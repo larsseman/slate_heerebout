@@ -103,7 +103,6 @@
 	
 	.vid-video {
 		width: 100%;
-		background-color: grey;
 	}
 }
 
@@ -135,6 +134,9 @@
 	.homeQ-content {
 		border-left: 2px solid $c-red;
 		margin-top: -17px;
+		a:hover {
+				color: $c-red;
+			}
 		
 		p {
 			color: $c-darkgrey;
@@ -245,12 +247,63 @@
 	}
 }
 // -----------form style-----------
-
-
-
 //        --> Contact page <--
 //-------------------------------------
 
+
+
+
+//------------ youtube vid --------------
+
+.youtube-vid {
+	overflow: hidden;
+	background-image: url('../img/youtube-vid.jpg');
+	background-size: cover;
+	background-position: center center;
+	margin-top: 20px;
+	height: 142px;
+	border-radius: 15px;
+	p {
+		text-align: center;
+		color: transparent;
+		font-size: 22px;			
+		line-height: 0px;
+		margin-top: 0px;
+
+		-webkit-transition: all 0.5s ease; 
+		-moz-transition: all 0.5s ease; 
+		-o-transition: all 0.5s ease; 
+	}	
+}
+
+
+.youtube-vid:hover {	
+	p,a {
+		text-decoration: none;
+		color: white;
+		background-color: rgba(0,0,0,0.5);			
+		line-height: 142px;
+	}
+}
+
+
+.youtube-vid.mob {
+	display: none;
+	height: 200px;
+	border-radius: 15px;
+	max-width: 300px;
+	margin: 20px auto;
+	p {
+		line-height: 0px;
+	}
+	
+	&:hover {
+		p {	
+			line-height: 200px;
+		}
+	}
+}
+//----------------------------
 
 
 .Hugo-intro-img {
