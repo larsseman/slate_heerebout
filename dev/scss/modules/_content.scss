@@ -103,6 +103,9 @@
 	
 	.vid-video {
 		width: 100%;
+		a {
+			text-decoration: none !important;
+		}
 	}
 }
 
@@ -257,18 +260,21 @@
 
 .youtube-vid {
 	overflow: hidden;
-	background-image: url('../img/youtube-vid.jpg');
-	background-size: cover;
+	background-image: url('../img/YouTube-icon.png');
+	background-size: 150px;
 	background-position: center center;
 	margin-top: 20px;
-	height: 142px;
+	height: 330px;
 	border-radius: 15px;
+	background-color: #2d2d2d;
+	background-repeat: no-repeat;
 	p {
 		text-align: center;
 		color: transparent;
 		font-size: 22px;			
 		line-height: 0px;
 		margin-top: 0px;
+		font-size: 30px;
 
 		-webkit-transition: all 0.5s ease; 
 		-moz-transition: all 0.5s ease; 
@@ -281,8 +287,7 @@
 	p,a {
 		text-decoration: none;
 		color: white;
-		background-color: rgba(0,0,0,0.5);			
-		line-height: 142px;
+		line-height: 135px;
 	}
 }
 
@@ -303,6 +308,7 @@
 		}
 	}
 }
+
 //----------------------------
 
 
@@ -351,7 +357,16 @@
 	}
 }
 
-
+@media all and (max-width: 800px) {
+	.youtube-vid {
+		height: 250px;
+	}
+	.youtube-vid:hover {
+		p {
+			line-height: 80px;
+		}
+	}
+}
 
 @media all and (max-width: 682px) {
 	.homeQ-box {
@@ -404,6 +419,20 @@
 		height: 200px;
 		margin: 20px 100px 20px 20px;
 		float: left;
+	}
+	
+	.youtube-vid {
+		height: 190px;
+		background-size: 100px auto;
+		p {
+			font-size: 20px;
+		}
+	}
+	
+	.youtube-vid:hover {
+		p {
+			line-height: 65px;
+		}
 	}
 }
 

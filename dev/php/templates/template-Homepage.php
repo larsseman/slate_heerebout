@@ -26,22 +26,19 @@ Template Name: temp Homepage
 		</div>
 	</div>
 	
-	
 	<div class="vid-padbox">
 		<div class="vid-title"><p>Video impressie</p></div>
 		<div class="vid-box">
 			<div class="vid-video">
-				<iframe width="720" height="480" src="//www.youtube.com/embed/we1UbtaMCqM" frameborder="0" allowfullscreen></iframe>
-
-				<!-- voor het geval het toch wel anders moet...
-				<div class="youtube-vid">
-					<a target="_blank" href="http://www.youtube.com/watch?v=we1UbtaMCqM"><p>Bekijk de video<p></a>					</div>
-				-->
+				<a target="_blank" href="http://www.youtube.com/watch?v=we1UbtaMCqM">
+					<div class="youtube-vid">	
+						<p>Bekijk de video<p>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
 </div>
-
 
 <div class="homeQ-outerWrapper">
 	<div class="u-gridContainer">
@@ -50,14 +47,14 @@ Template Name: temp Homepage
 				<div class="homeQ-title"><p>Wat kunnen wij voor u betekenen?</p></div>
 				<div class="homeQ-content">
 					<ul>
-						<li><a href="#">Arbeidsrecht</a></li>
-						<li><a href="#">Personen- en familierecht</a></li>
-						<li><a href="#">Ondernemingsrecht</a></li>
-						<li><a href="#">Geldvorderingen</a></li>
-						<li><a href="#">Bestuursrecht</a></li>
-						<li><a href="#">Onroerend goed</a></li>
-						<li><a href="#">Strafrecht</a></li>
-						<li><a href="#">Erfrecht</a></li>				
+						<li><a href="/arbeidsrecht/">Arbeidsrecht</a></li>
+						<li><a href="/personen-en-familierecht/">Personen- en familierecht</a></li>
+						<li><a href="/ondernemingsrecht/">Ondernemingsrecht</a></li>
+						<li><a href="/geldvordering/">Geldvorderingen</a></li>
+						<li><a href="/bestuursrecht/">Bestuursrecht</a></li>
+						<li><a href="/onroerend-goed/">Onroerend goed</a></li>
+						<li><a href="/strafrecht/">Strafrecht</a></li>
+						<li><a href="/erfrecht/">Erfrecht</a></li>				
 					</ul>
 				</div>
 			</div>
@@ -71,7 +68,7 @@ Template Name: temp Homepage
 				
 				<div class="homeQ-title four"><p>Opzoek naar hulp bij ontslag?</p></div>
 				<div class="homeQ-content four">
-					<a href="#">Klik hier voor uw ontslagwebsite</a>
+					<a href="http://www.advocaatbijontslag.nl/">Klik hier voor uw ontslagwebsite</a>
 				</div>
 			</div>
 		
@@ -79,10 +76,11 @@ Template Name: temp Homepage
 			<div class="homeQ-box">
 				<div class="homeQ-title three"><p>Nieuws</p></div>
 				<div class="homeQ-content three">
-					<a href="#">Celstraf voor oplichting en diefstal pinpas.</a>
+					<a target="_blank" href="http://www.rechtspraak.nl/Organisatie/Rechtbanken/Gelderland/Nieuws/Pages/PIJ-maatregelmetdriemaandenverlengd.aspx">PIJ-maatregel met drie maanden verlengd.</a>
 					<hr>
-					<a href="#">Bestuursvoorzitter KPMG Nederland Jurgen van Breukelen stapt op als signaal te breken met verleden.</a><hr>
-					<a href="#">De eKantonrechter nu ook toegankelijk voor. </a>
+					<a target="_blank" href="http://rechtennieuws.nl/42159/rechtbank-den-haag-stelt-de-wet-verbod-pelsdierhouderij-buiten-werking.html">Rechtbank Den Haag stelt de Wet verbod pelsdierhouderij buiten werking in Omgevingsrecht.</a>
+					<hr>
+					<a target="_blank" href="http://juridischdagblad.nl/content/view/13029/53/">Vrijspraak militair voor wurgingspoging.</a>
 				</div>
 			</div>
 		</div>

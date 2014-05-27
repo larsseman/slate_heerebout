@@ -15,6 +15,6 @@ module.exports = {
     src: 'deploy',
     dest: '/wp-content/themes/slate_heerebout',
     simple: true,
-    useList: false
+    useList: true
   }
 };
