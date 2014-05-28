@@ -25,6 +25,14 @@ Template Name: temp Homepage
 			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam.</p>
 		</div>
 	</div>
+
+	<div class="intro-box-mob">
+		<div class="intro-img-mob"></div>
+		<div class="intro-name-mob"><p>Hugo Heerebout</p></div>
+		<div class="intro-text-mob">
+			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam.</p>
+		</div>
+	</div>
 	
 	<div class="vid-padbox">
 		<div class="vid-title"><p>Video impressie</p></div>
