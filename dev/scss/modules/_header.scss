@@ -30,9 +30,23 @@
 	}
 }
 
+.extended-content.one {
+	display: none;
+}
 
 .extended-content.two {
 	display: none;
 }
+.extended-content.landingspagina-two {
+	display: none;
+}
 
 
+.page-id-5 {
+	.extended-content.one {
+		display: block;
+	}
+	.extended-content.landingspagina {
+		display: none;
+	}
+}

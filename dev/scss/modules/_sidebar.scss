@@ -1,0 +1,47 @@
+// *************************************
+//
+// Content
+// -> Main site content
+//
+// *************************************
+
+.Content--withSidebar {
+	@include span-columns(7);
+}
+
+.Sidebar-wrap {
+	@include span-columns(5);
+	padding-bottom: 35px;
+}
+
+.vid-padbox.two {
+	padding: 0 10px !important;
+	
+	.youtube-vid {
+		height: 200px !important;
+		background-size: 100px auto !important ;
+		p {
+			font-size: 25px !important;
+		}
+		&:hover {
+			p {
+				line-height: 75px !important;
+
+			}
+		}
+	}
+}
+
+.homeQ-box.landingspagina {
+	padding: 10px;
+}
+
+@media all and (max-width: 810px) {
+	.Content--withSidebar {
+		@include span-columns(12);
+	}
+
+	.Sidebar-wrap {
+		display: none;
+	}	
+}

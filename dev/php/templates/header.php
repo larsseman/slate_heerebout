@@ -57,16 +57,24 @@
 		</div>
 	</div> <!-- Main nav -->
 	
-<?php if(is_front_page()) { ?>
+<?php if(is_front_page() || is_page_template('template-landingspagina.php')) { ?>
 	<div class="Header">
 		<div class="Header-img">
 			<div class="extended-content two">
 				<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer.</p>
 			</div>
 
+			<div class="extended-content landingspagina-two">
+				<p>Heeft u vragen? Neem dan gerust <a href="/contact/">contact</a> met ons op.</p>
+			</div>
+
 			<div class="u-gridContainer">
 				<div class="extended-content one">
 					<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer.</p>
+				</div>
+
+				<div class="extended-content landingspagina">
+					<p>Heeft u vragen? Neem dan gerust <a href="/contact/">contact</a> met ons op.</p>
 				</div>
 			</div>		
 		</div>
