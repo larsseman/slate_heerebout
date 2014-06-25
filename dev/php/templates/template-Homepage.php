@@ -34,6 +34,7 @@ Template Name: temp Homepage
 		</div>
 	</div>
 	
+<!--
 	<div class="vid-padbox">
 		<div class="vid-title"><p>Video impressie</p></div>
 		<div class="vid-box">
@@ -46,29 +47,56 @@ Template Name: temp Homepage
 			</div>
 		</div>
 	</div>
+-->
 </div>
 
+
+<div class="u-gridContainer">
+
+
+	<div class="particulier-top">
+		<div class="index-box">
+			<div class="index-title"><p>Particulier</p></div>
+			<div class="index-content">
+				<a href="/arbeidsrecht/">Arbeidsrecht</a>
+				<a href="/personen-en-familierecht/">Personen en familierecht</a>
+				<a href="/starfrecht/">Strafrecht</a>
+				<a href="/erfrecht/">Erfrecht</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="index-img particulier">
+	</div>
+
+
+
+
+
+	<div class="zakelijk-top">
+		<div class="index-box">
+			<div class="index-title"><p>Zakelijk</p></div>
+			<div class="index-content">
+				<a href="/ondernemingsrecht/">Ondernemingsrecht</a>
+				<a href="/geldvordering/">Geldvordering</a>
+				<a href="/bestuursrecht/">Bestuursrecht</a>
+				<a href="/onroerend-goed/">Onroerend goed</a>
+				<a href="/bedrijven/">Bedrijven</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="index-img zakelijk">
+	</div>
+
+	
+</div><!-- u-gridcontainer -->
 
 
 <div class="homeQ-outerWrapper">
 	<div class="u-gridContainer">
 		<div class="homeQ-wrapper">
-			<div class="homeQ-box">
-				<div class="homeQ-title"><p>Wat kunnen wij voor u betekenen?</p></div>
-				<div class="homeQ-content">
-					<ul>
-						<li><a href="/arbeidsrecht/">Arbeidsrecht</a></li>
-						<li><a href="/personen-en-familierecht/">Personen- en familierecht</a></li>
-						<li><a href="/ondernemingsrecht/">Ondernemingsrecht</a></li>
-						<li><a href="/geldvordering/">Geldvorderingen</a></li>
-						<li><a href="/bestuursrecht/">Bestuursrecht</a></li>
-						<li><a href="/onroerend-goed/">Onroerend goed</a></li>
-						<li><a href="/strafrecht/">Strafrecht</a></li>
-						<li><a href="/erfrecht/">Erfrecht</a></li>				
-					</ul>
-				</div>
-			</div>
-			
+		
 			<div class="homeQ-box">
 				<div class="homeQ-title two"><p>Werkgebied</p></div>
 				<div class="homeQ-content">
@@ -78,7 +106,7 @@ Template Name: temp Homepage
 				
 				<div class="homeQ-title four"><p>Opzoek naar hulp bij ontslag?</p></div>
 				<div class="homeQ-content four">
-					<a href="http://www.advocaatbijontslag.nl/">Klik hier voor uw ontslagwebsite</a>
+					<a href="http://www.advocaatbijontslag.nl/">Klik hier voor de ontslagwebsite</a>
 				</div>
 			</div>
 		
@@ -93,6 +121,27 @@ Template Name: temp Homepage
 					<a target="_blank" href="http://juridischdagblad.nl/content/view/13029/53/">Vrijspraak militair voor wurgingspoging.</a>
 				</div>
 			</div>
+<!-- ============================= -->
+     <!-- tweede video optie -->			
+			<div class="homeQ-box">
+				<div class="homeQ-title"><p>Video impressie</p></div>
+				<div class="homeQ-content">
+			<!-- --------------------- -->
+					<div class="vid-box">
+						<div class="vid-video">
+							<a target="_blank" href="http://www.youtube.com/watch?v=we1UbtaMCqM">
+								<div class="youtube-vid bg">	
+									<div class="youtube-vid">	
+
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+			<!-- --------------------- -->
+				</div>
+			</div>
+<!-- ============================= -->
 		</div>
 	</div>
 </div>

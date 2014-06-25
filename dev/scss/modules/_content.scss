@@ -21,7 +21,6 @@
 	}
 }
 
-
 .intro-box {
 	position: relative;
 	color: white;
@@ -39,10 +38,8 @@
 		height: 160px;
 		width: 165px;
 		left: 35px;
-		top: -50px;					
+		top: -50px;
 	}
-	
-
 	
 	.intro-name {
 	    position: absolute;
@@ -137,10 +134,9 @@
 }
 
 .vid-box {
-	background-color: $c-red;
-	margin-top: -16px;
 	padding: 10px;
-	
+	margin: 0 10px;
+	margin-top: -16px;
 	.vid-video {
 		width: 100%;
 		a {
@@ -150,7 +146,6 @@
 }
 
 .homeQ-wrapper {
-	padding: 0 20px;
 	height: 420px;
 
 }
@@ -308,28 +303,26 @@
 
 //------------ youtube vid --------------
 
+.youtube-vid.bg {
+	overflow: hidden;
+	background-image: url('../img/YouTube-vid.png');
+	margin-top: 20px;
+	height: 170px;
+	background-color: #2d2d2d;
+	background-size: cover;
+	background-position: center center;
+	border: 5px solid $c-red;
+}
+
 .youtube-vid {
 	overflow: hidden;
 	background-image: url('../img/YouTube-icon.png');
-	background-size: 150px;
+	background-size: 80px;
 	background-position: center center;
-	margin-top: 20px;
-	height: 330px;
-	border-radius: 15px;
-	background-color: #2d2d2d;
-	background-repeat: no-repeat;
-	p {
-		text-align: center;
-		color: transparent;
-		font-size: 22px;			
-		line-height: 0px;
-		margin-top: 0px;
-		font-size: 30px;
 
-		-webkit-transition: all 0.5s ease; 
-		-moz-transition: all 0.5s ease; 
-		-o-transition: all 0.5s ease; 
-	}	
+	height: 170px;
+	border-radius: 15px;
+	background-repeat: no-repeat;
 }
 
 
@@ -370,6 +363,54 @@
 	height: 280px;
 	width: 280px;
 	margin: 20px;
+}
+
+
+// -----------
+.index-img {
+	float: left;
+	background-color: #CCC;
+	height: 220px;
+	width: 70%;
+	margin: 20px 0;
+	border: 8px solid $c-red;
+}
+
+.particulier {
+	background-image: url('../img/particulier.jpg');
+	background-size: cover;
+}
+
+.zakelijk {
+	background-image: url('../img/zakelijk.jpg');
+	background-size: cover;
+}
+// -----------
+
+.index-box {
+	float: left;
+	width: 30%;
+	padding: 0 20px 0 0;
+	margin-top: 4px;
+	
+	.index-title {
+		background-color: $c-red;
+		color: white;
+		line-height: 35px;
+		padding-left: 15px;
+	}
+}
+
+.index-content {
+	border-left: 2px solid $c-red;
+	padding-top: 20px;
+	margin-top: -20px;
+	padding-left: 20px;
+	height: 190px;
+
+	a {
+		display: block;
+	}
 }
 
 
@@ -417,15 +458,24 @@
 }
 
 @media all and (max-width: 800px) {
-	.youtube-vid {
-		height: 250px;
-	}
 	.youtube-vid:hover {
 		p {
 			line-height: 80px;
 		}
 	}
 }
+
+@media all and (max-width: 790px) {
+	.index-box {
+		width: 40%;
+	}
+	
+	.index-img {
+		width: 60%;
+	}
+}
+
+
 
 @media all and (max-width: 682px) {
 	.homeQ-box {
@@ -434,6 +484,14 @@
 	
 	.vid-padbox {
 		padding: 0;
+	}
+	
+	.index-box {
+		width: 50%;
+	}
+	
+	.index-img {
+		display: none;
 	}
 }
 
@@ -444,7 +502,7 @@
 	.intro-box {
 		display: none;
 	}
-	
+		
 	.adres-info {
 		width: 100% !important;
 	}
@@ -471,6 +529,17 @@
 }
 
 @media all and (max-width: 400px) {
+	.index-box {
+		width: 100%;
+		padding: 0;
+		
+		.index-content a {
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+
+	
 	.sub-footer p {
 		font-size: 8px !important;
 	}
@@ -510,6 +579,10 @@
 		padding: 20px 0;
 	}
 	.page-title {
+		display: none;
+	}
+	
+	.extended-content.landingspagina-two {
 		display: none;
 	}
 }
