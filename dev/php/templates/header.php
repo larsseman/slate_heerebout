@@ -46,9 +46,10 @@
     
 	<div class="Nav-wrapper">
 		<div class="u-gridContainer">
-			<a href="/home/" class="Logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heerebout_logo.png"></a>
+			<a href="/home/" class="Logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heerebout_logo2.png"></a>
 			<div class="right-nav-content">
 				<div class="Nav-tel">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tel.png" class="tel-png">
 					<h5>0252 - 620 557</h5>
 					<p>info@heerebout-advocatuur.nl</p>
 				</div>

@@ -47,7 +47,7 @@
 	    top: -70px;
 
 		p {
-			color: $c-red;
+			color: $c-green;
 			font-size: 24px;
 			font-weight: 600;
 		}		
@@ -96,6 +96,7 @@
 		width: 100%;
 		p {
 			font-size: 18px;
+			letter-spacing: 0.3px;
 		}		
 	}
 }
@@ -146,7 +147,7 @@
 }
 
 .homeQ-wrapper {
-	height: 420px;
+	height: auto;
 
 }
 
@@ -154,8 +155,9 @@
 	width: auto;
 	margin-top: 30px;
 	p {
-		font-size: 15px;
+		font-size: 16px;
 		padding: 7px 10px;
+		letter-spacing: 1px;
 	}
 }
 
@@ -166,6 +168,7 @@
 .homeQ-title.four {
 	margin-top: 25px;
 }
+
 
 .homeQ-box {
 	@include span-columns(4);
@@ -203,16 +206,25 @@
 	@include span-columns(12);
 }
 
+.homeQ-box.sidebar {
+	@include span-columns(12);
+	padding: 30px;
+}
+
 .homeQ-content.three {
 	border-left: 2px solid $c-darkgrey;
 	padding: 12px 16px;
 	a {
 		color: $c-darkgrey;
+		font-size: 14px;
 	}
 }
 
 .homeQ-content.four {
 	padding: 12px 16px;
+	a {
+		color: $c-green;
+	}
 }
 
 .homeQ-outerWrapper {
@@ -373,7 +385,7 @@
 	height: 220px;
 	width: 70%;
 	margin: 20px 0;
-	border: 8px solid $c-red;
+	border: 8px solid $c-green;
 }
 
 .particulier {
@@ -398,6 +410,9 @@
 		color: white;
 		line-height: 35px;
 		padding-left: 15px;
+		line-height: 35px;
+		font-weight: 600;
+		letter-spacing: 1.5px;
 	}
 }
 
@@ -410,10 +425,36 @@
 
 	a {
 		display: block;
+		color: $c-green;
+		font-weight: 600;
+		letter-spacing: 0.5px;
+		line-height: 27px;
 	}
 }
 
 
+.mar-top {
+	margin-top: 20px;
+}
+
+.lees-meer {
+	background-color: white;
+	border: 2px solid $c-red;
+	color: $c-red;	
+	display: block;
+	text-align: center;
+	width: 120px;
+	padding: 5px 10px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+
+	&:hover {
+		background-color: $c-red;
+		color: white;
+		border: 2px solid white;
+		text-decoration: none;
+	}
+}
 
 // ============================================================== 
 //					@media queries - Responsiveness
@@ -502,6 +543,11 @@
 	.intro-box {
 		display: none;
 	}
+	
+	.lees-meer {
+		margin: 0 auto;
+	}
+
 		
 	.adres-info {
 		width: 100% !important;
@@ -538,7 +584,6 @@
 			line-height: 30px;
 		}
 	}
-
 	
 	.sub-footer p {
 		font-size: 8px !important;

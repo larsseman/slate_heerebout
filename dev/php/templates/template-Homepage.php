@@ -23,6 +23,7 @@ Template Name: temp Homepage
 		<div class="intro-name"><p>Hugo Heerebout</p></div>
 		<div class="intro-text">
 			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam.</p>
+			<a href="/hugo-heerebout/" class="lees-meer">Lees meer</a>
 		</div>
 	</div>
 
@@ -31,28 +32,13 @@ Template Name: temp Homepage
 		<div class="intro-name-mob"><p>Hugo Heerebout</p></div>
 		<div class="intro-text-mob">
 			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam.</p>
+			<a href="/hugo-heerebout/" class="lees-meer">Lees meer</a>
 		</div>
 	</div>
-	
-<!--
-	<div class="vid-padbox">
-		<div class="vid-title"><p>Video impressie</p></div>
-		<div class="vid-box">
-			<div class="vid-video">
-				<a target="_blank" href="http://www.youtube.com/watch?v=we1UbtaMCqM">
-					<div class="youtube-vid">	
-						<p>Bekijk de video<p>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
--->
 </div>
 
 
-<div class="u-gridContainer">
-
+<div class="u-gridContainer mar-top">
 
 	<div class="particulier-top">
 		<div class="index-box">
@@ -102,12 +88,6 @@ Template Name: temp Homepage
 				<div class="homeQ-content">
 					<p>Heerebout Advocatuur met advocaat Hugo Heerebout, is gevestigd in Nieuw-Vennep, bij Hoofddorp en Schiphol, tussen Haarlem en Amsterdam in en slechts vijf minuten rijden van rijksweg A4.</p>
 				</div>
-				
-				
-				<div class="homeQ-title four"><p>Opzoek naar hulp bij ontslag?</p></div>
-				<div class="homeQ-content four">
-					<a href="http://www.advocaatbijontslag.nl/">Klik hier voor de ontslagwebsite</a>
-				</div>
 			</div>
 		
 		
@@ -116,9 +96,12 @@ Template Name: temp Homepage
 				<div class="homeQ-content three">
 					<a target="_blank" href="http://www.rechtspraak.nl/Organisatie/Rechtbanken/Gelderland/Nieuws/Pages/PIJ-maatregelmetdriemaandenverlengd.aspx">PIJ-maatregel met drie maanden verlengd.</a>
 					<hr>
-					<a target="_blank" href="http://rechtennieuws.nl/42159/rechtbank-den-haag-stelt-de-wet-verbod-pelsdierhouderij-buiten-werking.html">Rechtbank Den Haag stelt de Wet verbod pelsdierhouderij buiten werking in Omgevingsrecht.</a>
-					<hr>
 					<a target="_blank" href="http://juridischdagblad.nl/content/view/13029/53/">Vrijspraak militair voor wurgingspoging.</a>
+				</div>
+				
+				<div class="homeQ-title four"><p>Opzoek naar hulp bij ontslag?</p></div>
+				<div class="homeQ-content four">
+					<a href="http://www.advocaatbijontslag.nl/">Klik hier voor de ontslagwebsite</a>
 				</div>
 			</div>
 <!-- ============================= -->

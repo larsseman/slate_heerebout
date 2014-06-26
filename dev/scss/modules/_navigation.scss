@@ -18,15 +18,22 @@
 	width: 49%;
 	img {
 		max-width: 100%;
-	}
+	}	
 }
 
 .right-nav-content {
-	width: 50%;
+	position: relative;
 	float: right;
+	width: 50%;
 	padding-top: 15px;
 	
-	
+	.tel-png {
+		position: absolute;
+		height: 1.8em;
+		top: 40px;
+		left: 118px;
+	}
+
 	.Nav-tel {
 		text-align: center;
 		line-height: 0;
@@ -47,7 +54,7 @@
 			&:hover {
 				text-decoration: underline;
 			}
-		}
+		}		
 	}
 	
 	.Navigation ul {
@@ -257,5 +264,11 @@ svg.Icon.Icon--inline {
 	  @include media(780px) {
 	    display: none;
 	  }
+	}
+}
+
+@media all and (max-width: 350px) {
+	.Logo {
+		width: 100%;
 	}
 }
