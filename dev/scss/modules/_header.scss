@@ -5,12 +5,20 @@
 //
 // *************************************
 
+.Header {
+	background-color: #ccc;
+}
+
 .Header-img {
   background-image: url("../img/header-bg.jpg");
   background-size: cover;
-  height: 400px;
   position: relative;
+  height: 300px;
+  max-width: 1185px;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 100;
+  background-position: center 0;
 }
 
 

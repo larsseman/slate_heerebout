@@ -244,15 +244,17 @@
 
 .Contact-adres {
 	.adres-info {
-		@include span-columns(6);
+		@include span-columns(5);
 		padding: 15px;
 		p {
-			font-size: 18px;
+			font-size: 17px;
+			line-height: 24px;
 		}
 	}
 	
 	.maps {
-		@include span-columns(6);
+		@include span-columns(7);
+		height: 230px;
 	}
 }
 
@@ -317,7 +319,7 @@
 
 .youtube-vid.bg {
 	overflow: hidden;
-	background-image: url('../img/YouTube-vid.png');
+	background-image: url('../img/vid-img.jpg');
 	margin-top: 20px;
 	height: 170px;
 	background-color: #2d2d2d;
@@ -385,7 +387,7 @@
 	height: 220px;
 	width: 70%;
 	margin: 20px 0;
-	border: 8px solid $c-green;
+	border: 8px solid $c-red;
 }
 
 .particulier {
@@ -398,6 +400,7 @@
 	background-size: cover;
 }
 // -----------
+
 
 .index-box {
 	float: left;
@@ -455,6 +458,23 @@
 		text-decoration: none;
 	}
 }
+
+.pers-p p {
+    padding: 0px 5px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ============================================================== 
 //					@media queries - Responsiveness
@@ -536,6 +556,16 @@
 	}
 }
 
+@media all and (max-width: 660px) {
+	.adres-info {
+		width: 100% !important;
+	}
+	.maps {
+		width: 100% !important;
+	}
+
+}
+
 @media all and (max-width: 580px) {
 	.intro-box-mob {
 		display: block;
@@ -546,14 +576,6 @@
 	
 	.lees-meer {
 		margin: 0 auto;
-	}
-
-		
-	.adres-info {
-		width: 100% !important;
-	}
-	.maps {
-		width: 100% !important;
 	}
 }
 

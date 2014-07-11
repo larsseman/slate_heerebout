@@ -20,10 +20,12 @@ Template Name: temp Contact page
 							<p>Heerebout Advocatuur</p>
 							<p>Sint Anthoniusstraat 1F</p>
 							<p>2153 BA Nieuw-Vennep</p>
+							<p>Tel: 0252 - 620 557</p>
+							<p>info@heerebout-advocatuur.nl</p>
 						</div>
 						
 						<div class="maps">
-							<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Sint+Anthoniusstraat+1F++2153+BA+Nieuw-Vennep&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=47.080837,93.164063&amp;ie=UTF8&amp;hq=&amp;hnear=Sint+Anthoniusstraat+1F,+2153+BA+Nieuw-Vennep,+Nederland&amp;t=m&amp;z=14&amp;ll=52.263988,4.633949&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=nl&amp;geocode=&amp;q=Sint+Anthoniusstraat+1F++2153+BA+Nieuw-Vennep&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=47.080837,93.164063&amp;ie=UTF8&amp;hq=&amp;hnear=Sint+Anthoniusstraat+1F,+2153+BA+Nieuw-Vennep,+Nederland&amp;t=m&amp;z=14&amp;ll=52.263988,4.633949" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
+							<iframe width="425" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Sint+Anthoniusstraat+1F++2153+BA+Nieuw-Vennep&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=47.080837,93.164063&amp;ie=UTF8&amp;hq=&amp;hnear=Sint+Anthoniusstraat+1F,+2153+BA+Nieuw-Vennep,+Nederland&amp;t=m&amp;z=14&amp;ll=52.263988,4.633949&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=nl&amp;geocode=&amp;q=Sint+Anthoniusstraat+1F++2153+BA+Nieuw-Vennep&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=47.080837,93.164063&amp;ie=UTF8&amp;hq=&amp;hnear=Sint+Anthoniusstraat+1F,+2153+BA+Nieuw-Vennep,+Nederland&amp;t=m&amp;z=14&amp;ll=52.263988,4.633949" style="color:#0000FF;text-align:left">Grotere kaart weergeven</a></small>
 						</div>
 					</div>
 				

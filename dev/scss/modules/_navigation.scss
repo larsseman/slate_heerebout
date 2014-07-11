@@ -114,6 +114,7 @@
 	background-color: $c-darkgrey;
 	margin: 0 3px;
 	font-size: 15px;	
+	letter-spacing: 0.7px;
 	
 	&:hover {
 		background-color: $c-red;
@@ -152,18 +153,37 @@
     left: 0;
     z-index: 110;
 	
+	#menu-item-89 {
+		width: 235px;
+	}
+	
+	#menu-item-98 {
+		width: 190px;
+	}
+	
+	#menu-item-219 {
+		width: 200px;
+	}
+	
+	#menu-item-238 {
+		width: 240px;
+	}
 	
 	.Navigation-listItem {
 		display: block;
 		padding: 0 2px;
-		width: 205px;
 				
 		a {
+			display: block;
+			width: 100%;
 			background-color: transparent;
 			color: $c-darkgrey;
+			padding: 0 10px;
+			text-align: left;
 			
 			&:hover {
-				color: $c-red;
+				background-color: $c-red;
+				color: white;
 			}
 		}
 	}
@@ -241,14 +261,33 @@ svg.Icon.Icon--inline {
 	.Navigation-list--dropdown {
 		position: static;
 		border: 0px solid white;
+		width: auto;
 		
 		.Navigation-listItem {
 			width: auto;
 			a {
 				border: 2px solid;
 				line-height: 26px;
+				padding: 7px;
+				text-align: center;
 			}
 		}
+	}
+	
+	#menu-item-89 {
+		width: 100% !important;
+	}
+	
+	#menu-item-98 {
+		width: 100% !important;
+	}
+
+	#menu-item-219 {
+		width: 100% !important;
+	}
+	
+	#menu-item-238 {
+		width: 100% !important;
 	}
 	
 	

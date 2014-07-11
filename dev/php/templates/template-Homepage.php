@@ -45,7 +45,7 @@ Template Name: temp Homepage
 			<div class="index-title"><p>Particulier</p></div>
 			<div class="index-content">
 				<a href="/arbeidsrecht/">Arbeidsrecht</a>
-				<a href="/personen-en-familierecht/">Personen en familierecht</a>
+				<a href="/personen-en-familierecht/">Personen- en familierecht</a>
 				<a href="/starfrecht/">Strafrecht</a>
 				<a href="/erfrecht/">Erfrecht</a>
 			</div>
@@ -101,7 +101,7 @@ Template Name: temp Homepage
 				
 				<div class="homeQ-title four"><p>Opzoek naar hulp bij ontslag?</p></div>
 				<div class="homeQ-content four">
-					<a href="http://www.advocaatbijontslag.nl/">Klik hier voor de ontslagwebsite</a>
+					<a target="_blank" href="http://www.advocaatbijontslag.nl/">Klik hier voor de ontslagwebsite</a>
 				</div>
 			</div>
 <!-- ============================= -->
@@ -114,9 +114,7 @@ Template Name: temp Homepage
 						<div class="vid-video">
 							<a target="_blank" href="http://www.youtube.com/watch?v=we1UbtaMCqM">
 								<div class="youtube-vid bg">	
-									<div class="youtube-vid">	
-
-									</div>
+									<!-- <div class="youtube-vid"></div> -->
 								</div>
 							</a>
 						</div>

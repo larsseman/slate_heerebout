@@ -45,6 +45,9 @@ h3, %u-textH3 {
 
 h4, %u-textH4 {
   font-size: rem(25px);
+  line-height: 20px;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
 h5, %u-textH5 {
@@ -75,6 +78,7 @@ a {
 
 strong {
   font-weight: bold;
+  color: #606060;
 }
 
 em {
