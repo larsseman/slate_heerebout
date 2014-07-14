@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title><?php wp_title( '|', true, 'right' ); ?><?php echo get_bloginfo( 'name' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
 
     <!-- Mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,7 +62,7 @@
 	<div class="Header">
 		<div class="Header-img">
 			<div class="extended-content two">
-				<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer.</p>
+				<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer</p>
 			</div>
 
 			<div class="extended-content landingspagina-two">
@@ -71,7 +71,7 @@
 
 			<div class="u-gridContainer">
 				<div class="extended-content one">
-					<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer.</p>
+					<p>Heerebout Advocatuur is een gerenommeerd kantoor in de regio Haarlemmermeer</p>
 				</div>
 
 				<div class="extended-content landingspagina">

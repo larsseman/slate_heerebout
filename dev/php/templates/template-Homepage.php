@@ -22,7 +22,7 @@ Template Name: temp Homepage
 		<div class="intro-img"></div>
 		<div class="intro-name"><p>Hugo Heerebout</p></div>
 		<div class="intro-text">
-			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam.</p>
+			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam</p>
 			<a href="/hugo-heerebout/" class="lees-meer">Lees meer</a>
 		</div>
 	</div>
@@ -31,7 +31,7 @@ Template Name: temp Homepage
 		<div class="intro-img-mob"></div>
 		<div class="intro-name-mob"><p>Hugo Heerebout</p></div>
 		<div class="intro-text-mob">
-			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam.</p>
+			<p>Ik ben geboren en getogen in Rotterdam en na het Gymnasium Erasmianum in deze stad heb ik Nederlands recht gestudeerd aan de Erasmus Universiteit Rotterdam</p>
 			<a href="/hugo-heerebout/" class="lees-meer">Lees meer</a>
 		</div>
 	</div>
@@ -48,6 +48,7 @@ Template Name: temp Homepage
 				<a href="/personen-en-familierecht/">Personen- en familierecht</a>
 				<a href="/starfrecht/">Strafrecht</a>
 				<a href="/erfrecht/">Erfrecht</a>
+				<a href="/rechtsbijstandverzekering/">Rechtsbijstandverzekering</a>
 			</div>
 		</div>
 	</div>
@@ -64,10 +65,10 @@ Template Name: temp Homepage
 			<div class="index-title"><p>Zakelijk</p></div>
 			<div class="index-content">
 				<a href="/ondernemingsrecht/">Ondernemingsrecht</a>
-				<a href="/geldvordering/">Geldvordering</a>
+				<a href="/geldvorderingen/">Geldvorderingen</a>
 				<a href="/bestuursrecht/">Bestuursrecht</a>
 				<a href="/onroerend-goed/">Onroerend goed</a>
-				<a href="/bedrijven/">Bedrijven</a>
+				<a href="/spaanstalige-dienstverlening/">Spaanstalige dienstverlening</a>
 			</div>
 		</div>
 	</div>
