@@ -113,7 +113,7 @@ Template Name: temp Homepage
 			<!-- --------------------- -->
 					<div class="vid-box">
 						<div class="vid-video">
-							<a target="_blank" href="http://www.youtube.com/watch?v=we1UbtaMCqM">
+							<a target="_blank" href="/video/">
 								<div class="youtube-vid bg">	
 									<!-- <div class="youtube-vid"></div> -->
 								</div>

@@ -466,9 +466,20 @@
 
 
 
+.video {
+	object {
+		display: block;
+		margin: 0 auto;
+		width: 400px;
+	}
+}
 
-
-
+.Content-entry.land-page {
+	span {
+		font-size: 1em !important;
+		font-style: normal;
+	}
+}
 
 
 

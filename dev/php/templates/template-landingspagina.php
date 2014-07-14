@@ -12,7 +12,7 @@ Template Name: temp Landings-pagina
 			<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 						
 				
-				<div class="Content-entry">
+				<div class="Content-entry land-page">
 
 <!-- ----------------------------------------- -->				
 					<div class="intro-box landingspagina">
