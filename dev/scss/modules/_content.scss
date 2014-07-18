@@ -54,10 +54,10 @@
 	}
 	
 	.intro-text {
-		margin-left: auto;
+		margin-left: 200px;
 		width: 75%;
 		p {
-			font-size: 18px;
+			font-size: 17px;
 		}		
 	}
 }
@@ -444,7 +444,7 @@
 
 .lees-meer {
 	background-color: white;
-	border: 2px solid $c-red;
+	border: 2px solid white;
 	color: $c-red;	
 	display: block;
 	text-align: center;

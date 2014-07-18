@@ -46,7 +46,7 @@ Template Name: temp Homepage
 			<div class="index-content">
 				<a href="/arbeidsrecht/">Arbeidsrecht</a>
 				<a href="/personen-en-familierecht/">Personen- en familierecht</a>
-				<a href="/starfrecht/">Strafrecht</a>
+				<a href="/strafrecht/">Strafrecht</a>
 				<a href="/erfrecht/">Erfrecht</a>
 				<a href="/rechtsbijstandverzekering/">Rechtsbijstandverzekering</a>
 			</div>
@@ -68,7 +68,7 @@ Template Name: temp Homepage
 				<a href="/geldvorderingen/">Geldvorderingen</a>
 				<a href="/bestuursrecht/">Bestuursrecht</a>
 				<a href="/onroerend-goed/">Onroerend goed</a>
-				<a href="/spaanstalige-dienstverlening/">Spaanstalige dienstverlening</a>
+				<a href="/spaanstalige-dienstverlening/">Servicios Legales en Español</a>
 			</div>
 		</div>
 	</div>

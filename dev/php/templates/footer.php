@@ -2,7 +2,9 @@
 		<div class="u-gridContainer">
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			<div class="Footer-inner">
+				<div class="u-gridRow">
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
+				</div>
 			</div>
 			<?php endif; ?>
 		</div>
@@ -12,7 +14,7 @@
 
 	<div class="sub-footer">
 			<!-- Copyright info -->
-			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Gemaakt door <a href="http://lokaalgevonden.nl" target="_blank">LokaalGevonden.</a></p>
+			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Gemaakt door <a href="http://lokaalgevonden.nl" target="_blank">LokaalGevonden</a> <a href="/sitemap" style="color: #65666a;">sitemap</a></p>
 		</div>
 		
 		

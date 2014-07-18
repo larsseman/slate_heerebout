@@ -1,4 +1,18 @@
 <?php
+
+if ( function_exists('register_sidebar') ) {
+    register_sidebar(array(
+      'name' => 'landingspaginas',
+      'description'   => 'Deze sidebar wordt gebruikt op de landingspaginas index',      
+
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'after_widget' => '</li>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+    ));
+}
+
+
 add_filter('gform_validation_1', 'validate_captcha');
 
 	function validate_captcha($validation_result){

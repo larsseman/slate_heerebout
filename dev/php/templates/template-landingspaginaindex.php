@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: temp Landings-pagina
+Template Name: INDEX Landings-pagina
 */
 ?>
 
@@ -35,7 +35,7 @@ Template Name: temp Landings-pagina
 						<div class="page-title">
 							<h2><?php the_title(); ?></h2>
 						</div>	
-						<?php the_content(); ?>
+						<?php get_sidebar('landingspaginas'); ?>
 					</div>
 				</div>
 			</article>
@@ -50,3 +50,4 @@ Template Name: temp Landings-pagina
 	</div>
 	
 <?php get_footer(); ?>
+

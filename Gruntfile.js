@@ -52,13 +52,13 @@ module.exports = function (grunt) {
         // Concat js
         'concat:develop',
         // Process php
-        'newer:copy:php',
+       // 'newer:copy:php',
         'delete_sync:phptemplates',
         'delete_sync:phpincludes',
         // Copy Wp css
         'copy:css',
         // Process images
-        'newer:imagemin:all',
+        //'newer:imagemin:all',
         'delete_sync:img'
       );
     }
@@ -67,6 +67,7 @@ module.exports = function (grunt) {
       // grunt.task.run('foo:' + n, 'bar:' + n, 'baz:' + n);
     }
   });
+
 
   // ----- Grunt deploy ----- //
 
