@@ -6,12 +6,13 @@
 // *************************************
 
 .Content {
-	background-color: white;
+//	background-color: white;
 	margin: -30px 0;
 }
 
 .Content-entry {
-	background-color: white;
+//		background-color: white;
+	background-color: lighten($c-grey, 2%);
 	padding: 0 0 20px;
 }
 
@@ -29,7 +30,7 @@
 	padding: 20px 40px;
 	
 	.intro-img {
-		background-image: url('../img/Hugo.jpg');
+		background-image: url('../img/Hugo17.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-color: grey;
@@ -74,7 +75,7 @@
 	padding: 20px 40px;
 	
 	.intro-img-mob {
-		background-image: url('../img/Hugo.jpg');
+		background-image: url('../img/Hugo17.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-color: grey;
@@ -228,7 +229,7 @@
 }
 
 .homeQ-outerWrapper {
-	background-color: $c-grey;
+	background-color: darken($c-grey, 2%);
 	width: auto;
 	margin-top: 50px;
 	padding-bottom: 30px;
@@ -372,12 +373,12 @@
 
 
 .Hugo-intro-img {
-	background-image: url('../img/Hugo.jpg');
+	background-image: url('../img/Hugo30.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	float: right;
-	height: 280px;
-	width: 280px;
+	height: 300px;
+	width: 300px;
 	margin: 20px;
 }
 
@@ -491,7 +492,9 @@
 	}
 }
 
-
+.extended-content.one {
+	background-color: lighten($c-grey,2%);
+}
 
 
 

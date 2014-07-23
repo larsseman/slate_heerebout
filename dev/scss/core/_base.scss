@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: lighten($c-grey, 2%);
   color       : $c-black;
   font-family : $t-fontFamily;
   font-size   : 100%;

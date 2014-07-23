@@ -127,24 +127,9 @@
 // ============================================================== 
 
 @media all and (max-width: 955px) {
-	.widget {
+	.Footer .widget {
 		@include span-columns(12);
+
 	}
 }
-
-
-@media all and (max-width: 550px) {
-	.span3 {
-		text-align: center;
-		width: 100%;
-		
-		.contactformulier-btn {
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
-	
-	
-}
-
 
