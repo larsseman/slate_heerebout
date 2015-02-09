@@ -87,7 +87,7 @@ Template Name: temp Homepage
 			<div class="homeQ-box">
 				<div class="homeQ-title two"><p>Werkgebied</p></div>
 				<div class="homeQ-content">
-					<p>Heerebout Advocatuur met advocaat Hugo Heerebout, is gevestigd in Nieuw-Vennep, bij Hoofddorp en Schiphol, tussen Haarlem en Amsterdam in en slechts vijf minuten rijden van rijksweg A4.</p>
+					<p>Heerebout Advocatuur met advocaat Hugo Heerebout, is gevestigd in Nieuw-Vennep. De dichtstbijzijnde advocaat voor Nieuw-Vennep, Hoofddorp, Schiphol. Centraal in de Haarlemmermeer, naast rijksweg A4.</p>
 				</div>
 			</div>
 		

@@ -15,10 +15,7 @@ Template Name: Page Full-width filmTemp
 				</div>
 				<div class="Content-entry">
 <div class="video video-one">
-<object type="application/x-shockwave-flash" data="<?php echo get_stylesheet_directory_uri(); ?>/img/film.swf" width="400" height="330">
-	<param name="movie" value="<?php echo get_stylesheet_directory_uri(); ?>/img/film.swf" />
-	<param name="quality" value="high"/>
-</object>					
+<iframe width="420" height="315" src="https://www.youtube.com/embed/we1UbtaMCqM" frameborder="0" allowfullscreen></iframe>
 </div>
 
 					<?php the_content(); ?>
